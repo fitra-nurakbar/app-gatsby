@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
 export default function Footer() {
   return (
-    <div>
-     <q>Copyright 2022</q>
-    </div>
+    <footer>
+      <p>Copyright 2022</p>
+    </footer>
   )
 }

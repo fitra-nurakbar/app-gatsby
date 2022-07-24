@@ -1,0 +1,24 @@
+.projects {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 1.5em;
+}
+
+.projects > h1 {
+     text-align: center;
+     font-size: 3em;
+}
+
+.projects > h3 {
+     text-align: center;
+     font-size: 2em;
+     text-transform: capitalize;
+     font-weight: 400;
+}
+
+.projects > p {
+     max-width: 50rem;
+     text-align: center;
+     margin: 0 auto;
+}

@@ -1,0 +1,14 @@
+.about {
+     display: flex;
+     flex-direction: column;
+     gap: 1.5em;
+}
+
+.about > h1 {
+     font-size: 3em;
+}
+
+.about > h3 {
+     font-size: 2em;
+     font-weight: 400;
+}
