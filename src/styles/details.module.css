@@ -1,0 +1,9 @@
+.btn {
+  @apply inline-block bg-[#D42990] py-[10px] px-4 rounded-[10px] mt-5 font-medium;
+}
+.image {
+  @apply py-5;
+}
+.image img {
+  @apply bg-white rounded-[10px];
+}

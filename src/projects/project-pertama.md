@@ -1,0 +1,16 @@
+---
+title: judul pertama
+stack: HTML & CSS
+slug: slug-pertama
+thumb: ../images/laptop.png
+featureImg: ../images/hero.png
+id: 1
+---
+
+**Lorem ipsum dolor, sit amet consectetur adipisicing elit.** 
+
+Laudantium quae suscipit neque voluptatum debitis quisquam, pariatur odio at sed animi eum rem nisi voluptatem error, tenetur necessitatibus eveniet officia placeat deleniti. Placeat quis, harum deserunt cumque culpa soluta odio quidem ratione! Excepturi consequuntur vitae consectetur blanditiis ea at rem dicta inventore reiciendis suscipit voluptatibus nostrum, ad architecto beatae perferendis in cum iure similique. Reiciendis quia dolorem fugit dolorum consectetur nulla temporibus excepturi beatae aliquid praesentium expedita ducimus alias, quisquam illo mollitia doloremque modi enim harum obcaecati! Nemo vero iure cum culpa aliquam vel magni dolores quo accusantium. Inventore officiis tempore sunt nam molestias est eaque, earum atque aspernatur blanditiis recusandae accusantium alias rerum animi illum numquam sapiente in quia reiciendis, minima ipsa sit totam doloremque. Facilis assumenda expedita repellat iste esse aliquid impedit accusantium ea dolore. Suscipit libero optio praesentium? Tempora nam sit non blanditiis quos! Blanditiis, vero sint ea molestias quibusdam velit aperiam possimus libero officiis optio dolorem assumenda officia voluptatum ex voluptatem sunt vitae dolorum eum dolores nihil aliquid pariatur. A ex rem ratione iste quidem error culpa autem ad optio distinctio, illo dignissimos, id molestias similique quas soluta provident consequatur facilis deleniti obcaecati expedita maxime aperiam? Id.
+
+### Testing ieu teh header 3
+
+**Lorem ipsum dolor, sit amet consectetur adipisicing elit.** Laudantium quae suscipit neque voluptatum debitis quisquam, pariatur odio at sed animi eum rem nisi voluptatem error, tenetur necessitatibus eveniet officia placeat deleniti. Placeat quis, harum deserunt cumque culpa soluta odio quidem ratione! Excepturi consequuntur vitae consectetur blanditiis ea at rem dicta inventore reiciendis suscipit voluptatibus nostrum, ad architecto beatae perferendis in cum iure similique. Reiciendis quia dolorem fugit dolorum consectetur nulla temporibus excepturi beatae aliquid praesentium expedita ducimus alias, quisquam illo mollitia doloremque modi enim harum obcaecati! Nemo vero iure cum culpa aliquam vel magni dolores quo accusantium. Inventore officiis tempore sunt nam molestias est eaque, earum atque aspernatur blanditiis recusandae accusantium alias rerum animi illum numquam sapiente in quia reiciendis, minima ipsa sit totam doloremque. Facilis assumenda expedita repellat iste esse aliquid impedit accusantium ea dolore. Suscipit libero optio praesentium? Tempora nam sit non blanditiis quos! Blanditiis, vero sint ea molestias quibusdam velit aperiam possimus libero officiis optio dolorem assumenda officia voluptatum ex voluptatem sunt vitae dolorum eum dolores nihil aliquid pariatur. A ex rem ratione iste quidem error culpa autem ad optio distinctio, illo dignissimos, id molestias similique quas soluta provident consequatur facilis deleniti obcaecati expedita maxime aperiam? Id.

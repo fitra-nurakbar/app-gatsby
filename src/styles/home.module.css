@@ -1,26 +1,9 @@
 .header {
-     display: flex;
-     justify-content: space-between;
-     flex-wrap: wrap;
+  @apply grid gap-10 items-center grid-cols-2;
 }
-
-.header > div {
-     display: flex;
-     flex-direction: column;
-     gap: 1em;
+.header > img {
+     @apply max-w-full;
 }
-
-.header > div > input {
-     padding: 0.5em 1em;
-     border: none;
-     border-radius: 0.5em;
-}
-
-.header h1 {
-     font-size: 3em;
-}
-
-.header h3 {
-     font-size: 2em;
-     font-weight: 400;
+.btn {
+  @apply inline-block bg-[#D42990] py-[10px] px-4 rounded-[10px] mt-5 font-medium;
 }

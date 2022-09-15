@@ -2,69 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
-
-* {
-     margin: 0;
-     padding: 0;
-     text-decoration: none;
-     font-family: Poppins;
+h1 {
+  @apply text-[3em] font-semibold capitalize;
 }
-
-html, body {
-     min-height: 100%;
-     color: white;
+h2 {
+  @apply text-[2em] font-normal;
 }
-
+h3 {
+  @apply text-[1.5em] font-medium capitalize;
+}
+html,
 body {
-     background-color: #007D94;
+  @apply min-h-full text-white font-poppins px-4 xl:px-0;
 }
-
+input {
+  @apply text-black px-2 py-1 rounded-sm focus:ring-sky-500 outline-none;
+}
+body {
+  @apply bg-gradient-to-tl to-[rgba(146,43,225,1)] from-[rgba(43,9,107,1)];
+}
 p {
-     line-height: 1.5em;
+  @apply text-base my-2 mx-auto;
 }
-
-/* container */
-.container {
-     padding-top: 5em;
-     max-width: 1200px;
-     margin: 0 5%;
+strong {
+  @apply text-2xl;
 }
-
-/* nav */
+/* layout & nav */
+.layout {
+  @apply max-w-[1200px] mx-auto;
+}
 nav {
-     position: fixed;
-     background-color: rgba(255,255,255,0.8);
-     color: #007D94;
-     width: 100%;  
+  @apply flex justify-between items-center my-10 mx-auto;
 }
-
-nav > .navbar {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     height: 3rem;
-     margin: 0 5%;
+.nav-menu {
+  @apply hidden md:flex gap-5;
 }
-
-nav > .navbar .nav-menu {
-     display: flex;
-     gap: 2rem;
+.nav-menu a {
+  @apply border-b-[2px] border-transparent hover:border-white;
 }
-
-nav > .navbar .nav-menu > a {
-     border-bottom: 3px solid transparent;
+.active {
+  @apply border-white font-bold;
 }
-
-nav > .navbar .nav-menu > a:hover {
-     border-color: #007D94;
-}
-
 /* footer */
-footer > p {
-     padding: 2.5em 0;
-     text-align: center;
-     opacity: 50%;
+footer p {
+  @apply text-center text-[#bbb] my-10 mx-auto;
 }

@@ -1,24 +1,10 @@
+.header {
+  @apply text-center;
+}
+
 .projects {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     gap: 1.5em;
+  @apply grid grid-cols-3 gap-20 my-20 mx-5;
 }
-
-.projects > h1 {
-     text-align: center;
-     font-size: 3em;
-}
-
-.projects > h3 {
-     text-align: center;
-     font-size: 2em;
-     text-transform: capitalize;
-     font-weight: 400;
-}
-
-.projects > p {
-     max-width: 50rem;
-     text-align: center;
-     margin: 0 auto;
+.projects p {
+  @apply opacity-80 mt-1;
 }
